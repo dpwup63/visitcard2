@@ -1,29 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>сайт </title>
+    <title>Document</title>
 </head>
 <body>
+    <form>
+    <p>Имя пользователя</p>
+    <input type="name" name="surname">
+    <p>Пароль</p>
+    <input type="password" name="password">
+    <p>Почта</p>
+    <input type="email" name="email">
+    <p>Число</p>
+    <input type="number" name="age">
+    <button type="submit">Отправить на сервер</button>
+    </form>
 
+    <form>
+        <h2>Сеансы</h2>
+        <p>Кинотеатр:</p>
+        <input type="text" name="cinema" placeholder="Введите название кинотеатра" required>
+        <p>Фильмы:</p>
+        <input type="text" name="film" placeholder="Введите название фильма" required>
+        <p>Время</p>
+        <input type="time" name="time" required>
+        <P>Стоимость</P>
+        <input type="number" name="price" placeholder="Введите стоимость" required>
+        <br><br>
+        <button type="submit">Отправить данные о фильме</button>
+        <button type="reset">Очистить данные</button>
+        <button type="button">обычная кнопка</button>
+    </form>
 
-    <!-- коментарий -->
+    <form>
+        <h2>Какие ваши любимые цвета?</h2>
+        <label>
+            <input type="checkbox" name="color" value="Yellow" checked>Желтый
+        </label>
+         <br>
+         <label>
+         <input type="checkbox" name="color" value="red" disabled>Красный   
+         </label>
+         <br>
+        <input type="checkbox" name="color" value="blue" autofocus>Синий <br>
+        <button type="submit">Отправить цвет</button>
 
-    <img src="code/img/kote.jpg" alt="кот на машине"width= "500" height="200">
+    </form>
 
-    <img src="https://a.d-cd.net/MKAAAgFEpOA-1920.jpg" alt="" width="300">
+    <form>
+        <h2>Город в котором я живу</h2>
+        <label>
+            <input type="radio" name="city" value="Tumen">Тюмень
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="city" value="Ekb">Екатиренбург
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="city" value="Moscow">Москва
+        </label>
+        <br>
+        <button type="submit">Отправить результат</button>
+    </form>
 
-
-    <a href="https://fantasticbeings.fandom.com/ru/wiki/Кракен" target="_blank">ссылка
-
-    <img src="https://a.d-cd.net/7EAAAgIKA-A-1920.jpg" alt="" width="500">
-    
-    </a>
-
-    <a href="info.html">ссылка на вторую страницу</a>
-
-    
-
+    <input type="range">прогресс
+    <br>
+    <input type="color">
+    <br>
+    <input type="file">
 </body>
 </html>
